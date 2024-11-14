@@ -12,10 +12,16 @@ public class Player {
     public void attack(Enemy enemy) {
         System.out.println(name + " attacks " + enemy.name + "!");
         enemy.health -= attackPower;
-        System.out.println(enemy.name + " now has " + enemy.health + " health left.\n");
+        if (enemy.health <= 0) {
+            // Ensure health does not go negative
+            enemy.health = 0;
+            System.out.println(enemy.name + "'s health has fully been depleted.\n");
+        } else {
+            System.out.println(enemy.name + " now has " + enemy.health + " health left.\n");
+        }
     }
     public void heal() {
-        int healAmount = 20;
+        int healAmount = 15;
         health += healAmount;
         if (health > 100) {
             health = 100; // Cap health at 100
