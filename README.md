@@ -1,32 +1,34 @@
 # Forest RPG
 
-{Important! Do not say in this section that this is college assignment. Talk about what you are trying to accomplish as a software engineer to further your learning.}
+## Description of the Software
+I wanted to create a text-based role-playing game
+(RPG) that involves character creation, battles,
+and a simple storyline. The goal of this project
+is to build a game where the player engages in
+combat with enemies, makes strategic choices,
+and experiences basic game mechanics, such as
+attacking and defending. 
 
-{Provide a description of the software that you wrote to demonstrate the Java language.}
-
-{Describe your purpose for writing this software.}
-
-{Provide a link to your YouTube demonstration. It should be a 4-5 minute demo of the software running and a walkthrough of the code. Focus should be on sharing what you learned about the language syntax.}
+## Purpose
+With this project I aimed to explore Java 
+syntax, classes and methods, and user interaction, 
+enhancing my problem-solving and coding 
+capabilities.
 
 [Software Demo Video](http://youtube.link.goes.here)
 
-# Development Environment
+## Development Environment
+- **IDE**: IntelliJ IDEA Community Edition
+- **Programming Language**: Java
+- **Libraries Used**: No external libraries; standard Java libraries were sufficient for this project.
 
-{Describe the tools that you used to develop the software}
+## Useful Websites
+- [W3Schools Java Tutorials](https://www.w3schools.com/java/default.asp)
+- [Oracle Java Documentation](https://docs.oracle.com/en/java/)
+- [GeeksforGeeks Java Tutorials](https://www.geeksforgeeks.org/java/)
 
-{Describe the programming language that you used and any libraries.}
-
-# Useful Websites
-
-{Make a list of websites that you found helpful in this project}
-
-- [Web Site Name](http://url.link.goes.here)
-- [Web Site Name](http://url.link.goes.here)
-
-# Future Work
-
-{Make a list of things that you need to fix, improve, and add in the future.}
-
-- Item 1
-- Item 2
-- Item 3
+## Future Work
+- Expand the storyline to include more enemies.
+- Add an inventory system for items and weapons.
+- Introduce character leveling and skills
+- Add visual elements 
