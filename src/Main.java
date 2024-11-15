@@ -9,7 +9,7 @@ public class Main
 
         do {
             // Game start introduction
-            System.out.println("\nYou wake up in the middle of a dense, dark forest. The air is thick with the scent of moss, and the sound of distant growls sends a chill down your spine.");
+            System.out.println("\nYou wake up in the middle of a dark forest. The air is thick with the scent of moss and the sound of distant growls sends a chill down your spine.");
             System.out.println("With no memory of how you got here, you hear the rustling of leaves and know you must prepare for whatever lies ahead.");
             System.out.print("Enter your name, brave adventurer: ");
             String playerName = scanner.nextLine();
@@ -62,7 +62,7 @@ public class Main
 
             // Ask if the player wants to restart
             System.out.println("\nDo you want to play again? (yes/no)");
-            scanner.nextLine(); // Consume leftover newline
+            scanner.nextLine();
             String response = scanner.nextLine().trim().toLowerCase();
             playAgain = response.equals("yes");
 
